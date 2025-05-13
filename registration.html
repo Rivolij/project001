@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<title>Магазин Пиццы </title>
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="./css/menu.css">
+	<link rel="stylesheet" href="css/registration.css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700&amp;subset=cyrillic-ext" rel="stylesheet">
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="container text-center">
+			<img src="img/logo/pizza-logo.jpg" width="180" alt="Пицца">
+			<div class="display-4">Доставка Пиццы</div>
+			<p class="lead">Быстро и вкусно, а главное - с душой</p>
+			<ul class="horizontal-menu">
+				<li><a href="index.html">Заказ</a></li>
+				<li><a href="about.html">О нас</a></li>
+				<li><a href="qallery.html">Галерея</a></li>
+				<li><a href="registration.html">Авторизация</a></li>
+			</ul>
+		</div>
+	</header>
+
+
+	<div id="auth_section" class="form-container">
+		<h2>Регистрация</h2>
+		<form id="registration-form">
+			<label for="username">Имя пользователя:</label>
+			<input type="text" id="username" name="username" required>
+			<span class="error" id="user_error"></span>
+	
+			<label for="date">Дата рождения:</label>
+			<input type="date" id="date" name="date" required>
+			<span class="error" id="date_error"></span>
+	
+			<label for="sex">Пол:</label>
+			<select id="sex" name="sex" required>
+				<option value="male">Мужской</option>
+				<option value="female">Женский</option>
+			</select>
+
+			<label for="password">Пароль:</label>
+			<input type="password" id="password" name="password" required>
+			<span class="error" id="password-error"></span>
+
+			 	<button type="submit" class="button">Зарегистироваться</button>
+
+		</form>
+	</div>
+
+
+	<div id="auth_section" class="form-container">
+		<h2>Авторизация</h2>
+		<form id="login-form">
+			<label for="username">Имя пользователя:</label>
+			<input type="text" id="login-username" name="username" required>
+			<span class="error" id="user_error"></span>
+	
+			<label for="date">Дата рождения:</label>
+			<input type="date" id="login-date" name="date" required>
+			<span class="error" id="date_error"></span>
+	
+			<label for="sex">Пол:</label>
+			<select id="login-sex" name="sex" required>
+				<option value="male">Мужской</option>
+				<option value="female">Женский</option>
+			</select>
+
+			<label for="password">Пароль:</label>
+			<input type="password" id="login-password" name="password" required>
+			<span class="error" id="password-error"></span>
+
+			 	<button type="submit" class="button">Войти</button>
+
+		</form>
+	  </div>
+
+	<footer>
+		<cpan>Контактные данные: +7 (495) 123-45-67</cpan>
+        <cpan>Подпись: Револий И.Т</cpan>
+        <cpan>Год: 2025</cpan>
+	</footer>
+
+	<!-- Подключаем скрипты -->
+
+
+	<script src="./js/registration.js"></script>
+
+</body>
+
+</html>

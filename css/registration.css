@@ -1,0 +1,36 @@
+
+/* Кабинет */
+.hidden {
+  display: none;
+}
+.error {
+  color: red;
+}
+.form-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-container input, .form-container select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}

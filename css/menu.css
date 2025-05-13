@@ -1,0 +1,29 @@
+
+/* Меню */
+.horizontal-menu {
+    float: left;
+    display: flex;
+    list-style: none;
+
+}
+
+.horizontal-menu li {
+    margin-right: 30px;
+}
+
+.horizontal-menu li:last-child {
+    margin-right: 0;
+}
+
+.horizontal-menu a {
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(40, 39, 39);
+}
+
+.horizontal-menu a:hover {
+    color: #eb5a1e;
+}
+
+
+
